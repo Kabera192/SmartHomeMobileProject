@@ -19,6 +19,7 @@ The following dependencies are used in this project:
 
 - `fl_chart`: A Flutter library for creating beautiful charts.
 - `sensors_plus`: A Flutter plugin for accessing sensor data (e.g., accelerometer, gyroscope) on Android and iOS devices.
+- The `geolocator`, `location` and `google_maps_flutter` are used to manage and implement the geo-fencing feature and display it with Google Maps.
 
 To install the dependencies, add them to your `pubspec.yaml` file:
 
@@ -26,8 +27,14 @@ To install the dependencies, add them to your `pubspec.yaml` file:
 dependencies:
   flutter:
     sdk: flutter
-  fl_chart: ^0.35.0
-  sensors_plus: ^0.6.1
+  google_maps_flutter: ^2.2.8
+  flutter_polyline_points: ^2.0.0
+  geolocator: ^11.0.0
+  location: ^5.0.3
+  sensors_plus: ^5.0.0  
+  light_sensor: ^3.0.0
+  flutter_local_notifications: ^17.1.2
+  fl_chart: ^0.68.0
 ```
 
 ## Screenshots of Project
